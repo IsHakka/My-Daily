@@ -1,0 +1,39 @@
+.confirmModal {
+    width: 300px;
+    height: 150px;
+    background-color: #262D3D;
+    color: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.confirmText {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.confirmButton button{
+    border: none;
+    margin: 0 12px;
+    padding: 8px 24px;
+    background-color: rgb(200, 216, 216);
+    border-radius: 4px;
+    font-weight: 800;
+}
+.confirmButton button:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+.confirmButton .okButton{
+    background-color: #25A5E9;
+}
